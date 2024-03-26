@@ -1,0 +1,10 @@
+import random
+
+# 生成随机整数
+random_number = random.randint(1, 100)
+
+# 生成随机浮点数
+random_float = random.uniform(0.0, 1.0)
+
+# 生成随机字符串
+random_string = ''.join(random.choice('abcdefghijklmnopqrstuvwxyz') for _ in range(10))
